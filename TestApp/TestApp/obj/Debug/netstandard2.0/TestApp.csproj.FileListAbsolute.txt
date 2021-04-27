@@ -1,0 +1,13 @@
+/Users/komalkadam/Projects/TestApp/TestApp/bin/Debug/netstandard2.0/TestApp.deps.json
+/Users/komalkadam/Projects/TestApp/TestApp/bin/Debug/netstandard2.0/TestApp.dll
+/Users/komalkadam/Projects/TestApp/TestApp/bin/Debug/netstandard2.0/ref/TestApp.dll
+/Users/komalkadam/Projects/TestApp/TestApp/bin/Debug/netstandard2.0/TestApp.pdb
+/Users/komalkadam/Projects/TestApp/TestApp/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/komalkadam/Projects/TestApp/TestApp/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/komalkadam/Projects/TestApp/TestApp/obj/Debug/netstandard2.0/TestApp.AssemblyInfoInputs.cache
+/Users/komalkadam/Projects/TestApp/TestApp/obj/Debug/netstandard2.0/TestApp.AssemblyInfo.cs
+/Users/komalkadam/Projects/TestApp/TestApp/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/komalkadam/Projects/TestApp/TestApp/obj/Debug/netstandard2.0/TestApp.dll
+/Users/komalkadam/Projects/TestApp/TestApp/obj/Debug/netstandard2.0/ref/TestApp.dll
+/Users/komalkadam/Projects/TestApp/TestApp/obj/Debug/netstandard2.0/TestApp.pdb
+/Users/komalkadam/Projects/TestApp/TestApp/obj/Debug/netstandard2.0/TestApp.csprojAssemblyReference.cache

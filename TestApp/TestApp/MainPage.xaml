@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:Page.UseSafeArea="True"
+             xmlns:local="clr-namespace:TestApp;assembly=TestApp"
+             x:Name="mainPage"
+             mc:Ignorable="d" x:Class="TestApp.MainPage">
+    <StackLayout Padding="20">
+        <!-- Place new controls here -->
+        <Entry x:Name="firstName" Text="" Placeholder="First Name"/>
+        <Entry x:Name="lastName" Text="" Placeholder="Last Name"/>
+        <Entry x:Name="email" Text="" Placeholder="Email" />
+        <Button Text="Submit" Clicked="submit_clicked"/>
+
+        
+        <ListView x:Name="userListView" HasUnevenRows="True"
+                  ItemsSource="{Binding UserData.data,Source={x:Reference mainPage}}" SeparatorVisibility="None">
+            <ListView.Header>
+            <Grid ColumnSpacing="1" RowSpacing="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+                <BoxView HeightRequest="1" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" BackgroundColor="LightGray"/>
+            <Label  Text="First Name " Grid.Row="0" Grid.Column="0"/>
+
+            <Label Text="Last Name " Grid.Row="0" Grid.Column="1"/>
+
+            <Label Text="Email" Grid.Row="0" Grid.Column="2"/>
+
+        </Grid>
+            </ListView.Header>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid ColumnSpacing="1" RowSpacing="1" BackgroundColor="LightGray" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="1"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1"/>
+                <ColumnDefinition Width="*"/>
+                 <ColumnDefinition Width="1"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="1"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="1"/>
+            </Grid.ColumnDefinitions>
+            <BoxView WidthRequest="1" Grid.Row="1" Grid.Column="0"  BackgroundColor="LightGray"/>
+            <Label  Text="{Binding firstName}"  Grid.Row="1" Grid.Column="1" BackgroundColor="White"/>
+                            <BoxView WidthRequest="1" Grid.Row="1" Grid.Column="2"  BackgroundColor="LightGray"/>
+
+            <Label Text="{Binding lastName} " Grid.Row="1" Grid.Column="3" BackgroundColor="White"/>
+                            <BoxView WidthRequest="1" Grid.Row="1" Grid.Column="4"  BackgroundColor="LightGray"/>
+
+            <Label Text="{Binding email}" Grid.Row="1" Grid.Column="5" BackgroundColor="White"/>
+                            <BoxView WidthRequest="1" Grid.Row="1" Grid.Column="6"  BackgroundColor="LightGray"/>
+
+        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </StackLayout>
+</ContentPage>

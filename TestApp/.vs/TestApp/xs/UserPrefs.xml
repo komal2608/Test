@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{650ABF83-1AB7-444B-9438-0719790610C7}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestApp/MainPage.xaml">
+    <Files>
+      <File FileName="TestApp/MainPage.xaml.cs" Line="60" Column="16" />
+      <File FileName="TestApp/MainPage.xaml" Line="51" Column="1" />
+      <File FileName="TestApp/MainViewModel.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TestApp" expanded="True">
+            <Node name="TestApp" expanded="True">
+              <Node name="MainPage.xaml" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TestApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C9218974-B728-4490-807F-76FB9CA45DC5" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/komalkadam/Projects/TestApp/TestApp/MainPage.xaml.cs" relfile="TestApp/MainPage.xaml.cs" line="35" column="1" />
+      <Breakpoint file="/Users/komalkadam/Projects/TestApp/TestApp/MainPage.xaml.cs" relfile="TestApp/MainPage.xaml.cs" line="51" column="1" />
+      <Breakpoint file="/Users/komalkadam/Projects/TestApp/TestApp/MainPage.xaml.cs" relfile="TestApp/MainPage.xaml.cs" line="65" column="1" />
+      <Breakpoint file="/Users/komalkadam/Projects/TestApp/TestApp/MainPage.xaml.cs" relfile="TestApp/MainPage.xaml.cs" line="47" column="1" />
+      <Breakpoint file="/Users/komalkadam/Projects/TestApp/TestApp/MainPage.xaml.cs" relfile="TestApp/MainPage.xaml.cs" line="62" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.TestApp.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" FirstBuild="True" PreferredExecutionTarget="Android.SelectDevice" />
+</Properties>
